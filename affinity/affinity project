@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Affinity<title>
+    <link href="template.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+<header>
+        <p> <img src="JTBigBen.jpg"></p>
+        <p> <img src="JT part three.jpg"></p>
+        <p> <img src=""></p>
+        </header>
+    
+    <nav></nav>
+    
+    <section></section>
+    
+    <footer></footer>
+    </div>
+</body>
+
+</html>
