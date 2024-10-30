@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: saddlebrown;
+    
+}
+
+body#spring {
+    background-color: green;
+}
+
+#wrap {
+    width:80%;
+    margin: 0 auto;
+    background-color: #aaa;
+}
+body#fall {background-color: saddlebrown}
+
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body#winter {
+    background-color: dodgerblue;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: firebrick;
+    text-decoration-color: white;
+}
+section{
+    overflow:auto;
+}
+
+table{
+    width:75%;
+    background-color: saddlebrown;
+    
+    }
+td{padding:10px;}
+
+thead {
+    background-color: rebeccapurple;
+    color:white;
+    font size: larger;
+    font-family: Verdana, sans-serif;
+}
+
+tbody td{
+    border-bottom: 1px solid #ccc
+}
+
+tbody tr:nth-child(even){
+    background-color: #eee;}
+td.num {background-color: beige;}
+
+header, footer {
+    background-color: indianred;
+    text-align: center;
+    color:yellowgreen;
+    text-decoration-color: white
+    font-family: Georgia, serif;
+}
+
+}
+
+#spring header, #spring footer {
+    background-color: skyblue;
+} 
+
+#fall header, #fall footer{
+background-color: brown; }
+nav{
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+    
+}
+#winter header, #winter footer {
+    background-color: orangered;
+} nav{background-color: navajowhite;
+      text-align: center;
+      font-size:x-large;
+      padding:13px;}
+
+#spring nav {background-color: sandybrown;
+text-decoration-color: azure}
+#summer header, #summer footer
+
+Nav ul {
+    margin:0;
+    padding:0;
+    
+}
+nav li {
+    display:inline;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;}
+    
+    #fall nav a {
+        background-color:#900
+    }
+}
+nav a: hover {
+    background-color: #900;
+}
+
+#fall nav a: hover{
+    color:yellow;
+}
+
+winter nav a {color: cornsilk;}
+
+.photo{
+    float: left;
+    width:25%;
+    margin: 0px 20px 10px 10px;
+    
+}
+
