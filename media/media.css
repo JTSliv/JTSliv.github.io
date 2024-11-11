@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #aaa;
+    
+}
+
+#wrap {
+    width:80%;
+    margin: 0 auto;
+    background-color: #aaa;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+table{
+    width:75%
+    }
+td{padding:10px;}
+
+thead {
+    background-color: rebeccapurple;
+    color:white;
+    font size: larger;
+    font-family: Verdana, sans-serif;
+}
+
+tbody td{
+    border-bottom: 1px solid #ccc
+}
+
+tbody tr:nth-child(even){
+    background-color: #eee;}
+td.num {background-color: beige;}
+
+header, footer {
+    background-color: blue;
+    text-align: center;
+    color:white;
+    font-family: Georgia, serif;
+}
+
+nav{
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+    
+}
+Nav ul {
+    margin:0;
+    padding:0;
+    
+}
+nav li {
+    display:inline;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    
+}
+nav a: hover {
+    background-color: #900;
+}
+
+aside {
+    background-color: aqua;
+    width:25%;
+    float:left;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+article {
+    background-color: orchid;
+    width: 69%;
+    float:right;
+    padding: 2%;
+    border-right: 4px solid black;
+}
+
+section{
+    overflow: auto;
+    padding:0;
+    background-color: aqua;
+}
+
+.bird {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+
+@media screen and (min-width:801px) and (max-width: 1000px){
+    
+    nav {font-size:smaller;}
+    
+    body {background-color:coral;}
+    
+    
+}
+
+@media screen and (max-width:800px)  {
+    nav  {
+    padding: 0%;
+   
+}
+    #wrap {
+        width:100%;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    article,aside {
+        float:none;
+        width:100%
+    }
+    nav a, aside a {
+        display: block;
+        width:100%
+            nav a {
+    color:white;
+    text-decoration: none;
+                padding: 15px 25px;}
+    
+    }
+    nav ul, nav li, aside ul, aside li {
+        margin:0;
+        padding: 0;
+    }
+    aside { 
+    display:none;}
+    
+    .bird {
+        width:96%
+        float:none;
+    }
+}
