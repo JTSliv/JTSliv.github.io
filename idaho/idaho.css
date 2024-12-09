@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Bevan:ital@0;1&family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    background-color: darkseagreen;
+    
+}
+
+body#McCall {
+    background-color: darkseagreen;
+}
+
+#wrap {
+    width:80%;
+    margin: 0 auto;
+    background-color: #aaa;
+}
+body#craters {background-color: darkseagreen}
+
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body#winter {
+    background-color: greenyellow;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: palegreen;
+    text-decoration-color: white;
+}
+header {
+    font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section{
+    overflow:auto;
+}
+section {
+     font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+table{
+    width:75%;
+    background-color: skyblue;
+    
+    }
+td{padding:10px;}
+
+.pic {
+    width: 50%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+thead {
+    background-color: greenyellow;
+    color:white;
+    font size: larger;
+    font-family: Verdana, sans-serif;
+}
+
+tbody td{
+    border-bottom: 1px solid #ccc
+}
+
+tbody tr:nth-child(even){
+    background-color: #eee;}
+td.num {background-color: beige;}
+
+header, footer {
+    background-color: skyblue;
+    text-align: center;
+    color:yellowgreen;
+    text-decoration-color: white
+    font-family: Georgia, serif;
+}
+
+}
+
+ header,  footer {
+    background-color: skyblue;
+} 
+
+#fall header, #fall footer{
+background-color: brown; }
+nav{
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+    
+}
+ # header, # footer {
+    background-color: orangered;
+} nav{background-color: darkseagreen;
+      text-align: center;
+      font-size:x-large;
+      padding:13px;}
+
+#spring nav {background-color: sandybrown;
+text-decoration-color: azure}
+#summer header, #summer footer
+
+Nav ul {
+    margin:0;
+    padding:0;
+    
+}
+nav li {
+    display:inline;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;}
+    
+    #fall nav a {
+        background-color:#900
+    }
+}
+nav a: hover {
+    background-color: lawngreen;
+}
+
+#fall nav a: hover{
+    color:yellow;
+}
+
+winter nav a {color: cornsilk;}
+
+.photo{
+    float: left;
+    width:25%;
+    margin: 0px 20px 10px 10px;
+    
+}
+
